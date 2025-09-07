@@ -164,16 +164,16 @@ display: block;
       border-radius:8px;
       text-align:center;
       font-size:0.95rem;
-    }
+    } 
 
     /* Responsive: stack on narrow screens */
     @media (max-width: 800px) {
-      .container { grid-template-columns: 1fr; grid-template-areas:
-        "header"
-        "nav"
-        "main"
-        "aside"
-        "footer"; }
+      .co { grid-template-columns: 1fr; grid-template-areas:
+        "heads"
+        "navbar"
+        "mainsextion"
+        "sidebar"
+        "footersextion"; }
       aside { order: 3; }
       main { order: 2; }
       header { padding: 48px 16px; }
